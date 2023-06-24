@@ -4,8 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class GCTest {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         int i=0;
+        Thread.sleep(3000000);
         try{
             List<String> list=new ArrayList<>();
             String a="itcast.com";
